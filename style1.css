@@ -1,0 +1,40 @@
+.wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#studenttable{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#studenttable td, #studenttable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#studenttable tr:hover{
+    background-color: #ddd;
+}
+
+#studenttable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #34A853;
+    color: white;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #34A858;
+    padding: 10px 20px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: #34A853;
+    color: white;
+}
